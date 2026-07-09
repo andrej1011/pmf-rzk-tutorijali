@@ -4,7 +4,7 @@
 ### Korak 1 — Kreiranje projekta
 
 Otvori https://start.spring.io/ i podesi kao na slici:
-![Kreiranje aplikacije](rzk-tutorijal-slike/kreiranje-aplikacije.png)
+![Kreiranje aplikacije](rzk-tutorial-slike/kreiranje-aplikacije.png)
 
 Klikni **GENERATE** → skida se ZIP → raspakuj.
 
@@ -46,15 +46,16 @@ Entitete **ne kucamo od nule** — generišemo ih iz tabela (reverse engineeri
 | password | rzkStudent2019!          |
 | database | rzk                      |
 
-![Setup databaze](rzk-tutorijal-slike/setup-baza.png)
+![Setup databaze](rzk-tutorial-slike/setup-baza.png)
 
  → **Test Connection** → OK.
- 
+
+
 2. desni klik na tabelu → **Reverse Engineering** → selektuj svih 5 tabela → generiši entitete u paket `com.rzk.ergela_services.model`.
 
-[Setup reverse engineer](rzk-tutorijal-slike/setup-reverse-eng.png)
+![Setup reverse engineer](rzk-tutorial-slike/setup-reverse-eng.png)
 
-2. Generator napravi i `@OneToMany` obrnute strane veza — njih zadržavamo (koristimo ih kasnije u JPQL upitima).
+3. Generator napravi i `@OneToMany` obrnute strane veza — njih zadržavamo (koristimo ih kasnije u JPQL upitima).
 
 
 ### Korak 5 — Paketi
